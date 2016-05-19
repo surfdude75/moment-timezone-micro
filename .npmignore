@@ -1,0 +1,7 @@
+tests
+node_modules
+src
+bower.json
+gulpfile.js
+webpack.config.js
+**/.*

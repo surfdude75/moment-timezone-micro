@@ -1,0 +1,31 @@
+{
+  "name": "moment-timezone-micro",
+  "description": "Tiny module for date format and timezone conversion with daylight saving time support.",
+  "main": "dist/moment-timezone-micro.js",
+  "authors": [
+    "Rafael Sobral <rafaelsobral3@gmail.com>"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "timezone",
+    "date",
+    "format",
+    "moment",
+    "tiny",
+    "micro",
+    "daylight",
+    "saving",
+    "time",
+    "DLS",
+    "lightweight",
+    "client"
+  ],
+  "homepage": "https://github.com/surfdude75/moment-timezone-micro",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}

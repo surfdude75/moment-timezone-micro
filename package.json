@@ -1,10 +1,10 @@
 {
   "name": "moment-timezone-micro",
   "version": "0.0.1",
-  "description": "Tiny module for date format and timezone conversion. Create taking code from moment and moment-timezone. Designed to use in lightweight clients that requires timezone awareness. Timezone handling if done using timezone packed string from moment-timezone. This string can be supplied to client using from a setting json or from a server running moment-timezone.",
-  "main": "index.js",
+  "description": "Tiny module for date format and timezone conversion with daylight saving time support.",
+  "main": "dist/moment-timezone-micro.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "gulp test"
   },
   "repository": {
     "type": "git",
@@ -17,11 +17,15 @@
     "moment",
     "tiny",
     "micro",
+    "daylight",
+    "saving",
+    "time",
+    "DLS",
     "lightweight",
     "client"
   ],
-  "author": "Rafael Sobral",
-  "license": "ISC",
+  "author": "Rafael Sobral <rafaelsobral3@gmail.com>",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/surfdude75/moment-timezone-micro/issues"
   },
