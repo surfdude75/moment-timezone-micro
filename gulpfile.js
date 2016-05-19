@@ -17,7 +17,7 @@ gulp.task("test",function(){
 
 gulp.task('clean', del.bind(null, ['dist']));
 
-gulp.task('default', ['clean','test'], () => {
+gulp.task('default', ['clean','test'], function(){
   gulp.start('build');
 });
 
