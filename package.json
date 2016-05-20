@@ -1,6 +1,6 @@
 {
   "name": "moment-timezone-micro",
-  "version": "0.0.2",
+  "version": "0.1.0",
   "description": "Tiny module for date format and timezone conversion with daylight saving time support.",
   "main": "dist/moment-timezone-micro.js",
   "scripts": {
