@@ -15,3 +15,4 @@ deploy:
   skip_cleanup: true
   on:
     repo: surfdude75/moment-timezone-micro
+    tags: true
