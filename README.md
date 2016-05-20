@@ -1,6 +1,6 @@
 # Moment Timezone Micro
 
-[![Build Status][travis-image]][travis-url]
+[![NPM version][npm-version-image]][npm-url] [![NPM downloads][npm-downloads-image]][npm-url] [![Build Status][travis-image]][travis-url]
 
 Tiny module (4kb) for date format and timezone conversion with Daylight Saving Time support. 
 
@@ -26,3 +26,7 @@ This timezone string can be supplied to a lightweigth client on setting params o
 
 [travis-url]: https://travis-ci.org/surfdude75/moment-timezone-micro
 [travis-image]: https://travis-ci.org/surfdude75/moment-timezone-micro.svg?branch=master
+
+[npm-url]: https://www.npmjs.com/package/moment-timezone-micro
+[npm-version-image]: http://img.shields.io/npm/v/moment-timezone-micro.svg?style=flat
+[npm-downloads-image]: http://img.shields.io/npm/dm/moment-timezone-micro.svg?style=flat
