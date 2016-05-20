@@ -26,6 +26,7 @@
     "node_modules",
     "tests",
     "src",
-    "gulpfile.js"
+    "gulpfile.js",
+    "webpack.config.js"
   ]
 }
