@@ -7,12 +7,3 @@ node_js:
 before_script:
 - npm install -g gulp
 script: gulp
-deploy:
-  provider: releases
-  api_key:
-    secure: XaR8sDgwlfszhyn/d/4T2pLkvVjFPcs0NAWsPrHbG6LlUr92b0UF/Qg+MVtl6HUC7GPddomz/q74yZvbeCZNdVhf4uktf1toODp3EzwsxWLfszNdJN61FSk6GvE59WWf58qiB2RePzIZFtnxQiA+tFhXC5UIh2eUFA6pkH8YPJnrvHApn6XHfwPcIMJ1ziNEWHkGIPBxr7i6OpUrAJd2CQe7vufYNY6DpcxIDAI3stRdesELZoEn1Wy+azpp7gdjle1YfrpPXeVUAkP922gM07YoPRm+UJTW8HTgavsdzBg2QEYNadQMlVkU/5/BcLjzzvKX558r4S/GBXXqHrihQ9qaep3yrfph2+fuzqnc32mAXno3R9aSEFrizm0I4uDRjvO3wcusNuZYOmj5+aqkLtm1U8Mcz0PNqrQOfiAE0W+zG6ZReEAK1LVOh1ny7W/lPgLINmcYY5IXgUKsNjRCPHMRH/7D+JPwOFnfiKnVH7XaqSuUvDaCfWA3EBWDoCw0ttT+NnmOin6ZR1J2TVUysgFPoWV5b+w27Upj0oduD3gzrP6qCT+MKbf+pNW/fSWIYMQiM2bWiYtTmQMAKIoSzORvrCmpBXvfNZq6W7rPFfPbBfIRynMJGnlobQGAimMVjpWnUVT4bnyoc8KdlfEqr7Ql7FbSH+BxmahfB2IqOBw=
-  file: dist/moment-timezone-micro.js
-  skip_cleanup: true
-  on:
-    repo: surfdude75/moment-timezone-micro
-    tags: true
