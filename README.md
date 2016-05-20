@@ -1,8 +1,10 @@
-# [Moment Timezone Micro]
+# Moment Timezone Micro
 
 Tiny module for date format and timezone conversion with Daylight Saving Time support. 
 
-Created from [moment](https://github.com/moment/moment) and [moment-timezone](https://github.com/moment/moment-timezone). Timezone conversion is done using as input a timezone data string.
+Created from [moment](https://github.com/moment/moment) and [moment-timezone](https://github.com/moment/moment-timezone).
+
+Timezone conversion is done using as input a timezone data string.
 
 This strings are available in moment-time module. 
 
