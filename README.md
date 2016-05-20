@@ -2,7 +2,7 @@
 
 [![Build Status][travis-image]][travis-url]
 
-Tiny module for date format and timezone conversion with Daylight Saving Time support. 
+Tiny module (4kb) for date format and timezone conversion with Daylight Saving Time support. 
 
 Created from [moment](https://github.com/moment/moment) and [moment-timezone](https://github.com/moment/moment-timezone).
 
