@@ -81,22 +81,6 @@ class Zone
     untils = @untils
     for i in [0...untils.length]
       return i if target < untils[i]
-  parse: (timestamp) ->
-    target = +timestamp
-    offsets = @offsets
-    untils = @untils
-    max = untils.length - 1
-    for i in [0...max]
-      offset = offsets[i]
-      offsetNext = offsets[i + 1]
-      offsetPrev = offsets[ if i then (i - 1) else i]
-      if offset < offsetNext and moveAmbiguousForward
-        offset = offsetNext
-      else if offset > offsetPrevand and moveInvalidForward
-        offset = offsetPrev
-      if target < untils[i] - (offset * 60000)
-        return offsets[i]
-    offsets[max]
   abbr: (mom) ->
     @abbrs[@_index(mom)]
   offset: (mom) ->
